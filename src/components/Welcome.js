@@ -1,3 +1,5 @@
+//functional component
+
 // function Welcome(){
 //     return <h1>Welcome Revin</h1>
 // }
