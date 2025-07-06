@@ -3,6 +3,9 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Greeting from './components/Greeting';
 
+//how to import named component
+import { FirstComponent as FC, SecondComponent } from './components/MyComponent';
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +14,8 @@ function App() {
 
       <Greeting name="Ramesh"/>
       <Greeting name="Umesh"/>
+      <FC/>
+      <SecondComponent/>
     </div>
   );
 }
