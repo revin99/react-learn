@@ -11,6 +11,7 @@ import MC from './components/MyComponent';
 import HelloWorld from './components/HelloWorld';
 import Student from './components/Student';
 import Employee from './components/Employee';
+import User from './components/User';
 
 function App() {
 
@@ -56,7 +57,9 @@ function App() {
       data= {skills}
       /> */}
 
-      <Employee/>
+      {/* <Employee/> */}
+
+      <User/>
     </div>
   );
 }
