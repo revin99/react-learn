@@ -10,6 +10,7 @@ import { FirstComponent as FC, SecondComponent } from './components/MyComponent'
 import MC from './components/MyComponent';
 import HelloWorld from './components/HelloWorld';
 import Student from './components/Student';
+import Employee from './components/Employee';
 
 function App() {
 
@@ -50,10 +51,12 @@ function App() {
       {/* <Student 
       student = {student}
       /> */}
-
+{/* 
       <Student
       data= {skills}
-      />
+      /> */}
+
+      <Employee/>
     </div>
   );
 }
