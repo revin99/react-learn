@@ -13,6 +13,7 @@ import Student from './components/Student';
 import Employee from './components/Employee';
 import User from './components/User';
 import EventHandling from './components/EventHandling';
+import ConditionalRendering from './components/ConditionalRendering';
 
 function App() {
 
@@ -63,7 +64,9 @@ function App() {
       {/* <User/> */}
 
 
-      <EventHandling/>
+      {/* <EventHandling/> */}
+
+      <ConditionalRendering/>
 
     </div>
   );
